@@ -142,7 +142,7 @@
    color: #e38968;
 }
  .me {
-   background-image: url("img/me.png");
+   background-image: url("me.png");
 }
  .align-left {
    text-align: left;
@@ -163,15 +163,15 @@
 }
 
 .botGeorges {
-  background-image: url("img/bot1.png");
+  background-image: url("bot1.png");
 }
 
 .botCharles {
-  background-image: url("img/bot2.png");
+  background-image: url("bot2.png");
 }
 
 .botBernard {
-  background-image: url("img/bot3.png");
+  background-image: url("bot3.png");
 }
 
 /*Barre de message*/
