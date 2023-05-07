@@ -242,9 +242,9 @@ const bot3Commands = [
 ]
 
 const bots = [
-  new Bot("Georges", bot1Commands, "img/bot1.png"),
-  new Bot("Charles", bot2Commands, "img/bot2.png"),
-  new Bot("Bernard", bot3Commands, "img/bot3.png")
+  new Bot("Georges", bot1Commands, "bot1.png"),
+  new Bot("Charles", bot2Commands, "bot2.png"),
+  new Bot("Bernard", bot3Commands, "bot3.png")
   ];
 
 const user = new User("Moi");
