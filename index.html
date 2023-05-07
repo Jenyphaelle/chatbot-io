@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="index.js" ></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container clearfix">
+    <div class="people-list" id="people-list">
+      <ul class="list" id="botList">
+      </ul>
+    </div>
+    
+    <div class="chat">
+
+    <div id="messages" class="messages">
+      
+    </div>
+    <div class="sendMessage">
+      <input id="inputMessage" type="text" placeholder="Tapez ici..."/>
+      <a href="#" onclick="sendMessage(inputMessage.value)" id="btnMessage">Envoyer</a>
+    </div>
+      
+    </div> <!-- end chat -->
+  </div> <!-- end container -->
+
+</body>
+</html>
